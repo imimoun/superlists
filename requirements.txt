@@ -1,5 +1,6 @@
-Django==2.0.3
+Django==1.7
 pip==9.0.1
 django_heroku==0.3.1
 setuptools==38.4.0
 wheel==0.30.0
+selenium==3.11.0
