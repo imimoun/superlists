@@ -1,6 +1,6 @@
-from django.urls import path
+from django.conf.urls import patterns, url
 from lists import views
 
-urlpatterns = [
-    path('', views.home_page),
-]
+urlpatterns = patterns('',
+                       url('', views.home_page),
+                       )
