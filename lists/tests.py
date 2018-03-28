@@ -3,9 +3,9 @@ from django.template.loader import render_to_string
 from django.test import TestCase
 from django.urls.base import resolve
 
-from superlists.lists.models import Item
+from lists.models import Item
 from utils.utils import remove_csrf
-from superlists.lists.views import home_page
+from lists.views import home_page
 
 
 class HomePageTest(TestCase):

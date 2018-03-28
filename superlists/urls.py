@@ -2,6 +2,6 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('', include('superlists.lists.urls')),
+    path('', include('lists.urls')),
     path('admin/', admin.site.urls),
 ]
