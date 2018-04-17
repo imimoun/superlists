@@ -6,7 +6,7 @@ verify_ssl = true
 
 [packages]
 
-django = "1.7"
+django = "==1.7"
 gunicorn = "*"
 
 
